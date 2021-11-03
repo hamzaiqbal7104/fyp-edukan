@@ -25,6 +25,8 @@ import Mobile from "./Category/Pages/Mobile";
 import Computer from "./Category/Pages/Computer";
 import Electronic from "./Category/Pages/Electronic";
 import Sport from "./Category/Pages/Sport";
+import DailyDeals from "./Category/DailyDeals";
+import Suggested from "./Category/Suggested";
 
 
 const Customer = () => {
@@ -58,6 +60,8 @@ const Customer = () => {
           <Route path="/computer" exact component={Computer} />
           <Route path="/electronic" exact component={Electronic} />
           <Route path="/sport" exact component={Sport} />
+          <Route path="/deals" exact component={DailyDeals} />
+          <Route path="/suggested" exact component={Suggested} />
         </Switch>
       </BrowserRouter>
     </>
